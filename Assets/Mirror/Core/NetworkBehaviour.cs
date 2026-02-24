@@ -1268,7 +1268,6 @@ namespace Mirror
             // if initialState
             //   write all SyncVars
             // else
-            //   write syncVarDirtyBits
             //   write dirty SyncVars
         }
 
@@ -1283,7 +1282,6 @@ namespace Mirror
             // if initialState
             //   read all SyncVars
             // else
-            //   read syncVarDirtyBits
             //   read dirty SyncVars
         }
 
